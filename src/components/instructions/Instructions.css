@@ -1,0 +1,30 @@
+.Instructions {
+    text-align: center;
+    margin: 100px 0;
+}
+.Instructions ol { 
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 25px;
+ }
+ .Instructions li {
+    display: inline-block;
+    width: auto;
+    list-style: outside none none;
+    flex: 1;
+    min-width: 300px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.08);
+ }
+
+ .sm-grid .header {
+     font-size: 28px;
+     font-weight: 300;
+     padding: 20px;
+ }
+
+ .Instructions svg {
+     padding: 40px;
+     border-radius: 3px;
+ }

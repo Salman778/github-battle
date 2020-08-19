@@ -1,0 +1,66 @@
+.ReposGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ReposGrid .header {
+    font-size: 35px;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.ReposGrid .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block;
+}
+
+.ReposGrid .center-text {
+    text-align: center;
+}
+
+.ReposGrid .link {
+    color: rgb(187, 46, 31);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ReposGrid .card-list {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.ReposGrid .card-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.ReposGrid .card-list svg {
+    margin-right: 10px;
+}
+
+.ReposGrid .card-list a {
+    font-weight: 500;
+    color: inherit;
+}
+
+.ReposGrid .repo {
+    margin: 10px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+}
+
+.ReposGrid .repo a{
+    text-decoration: none;
+}
+
+.ReposGrid .repo img {
+    margin-bottom: 8px;
+}
